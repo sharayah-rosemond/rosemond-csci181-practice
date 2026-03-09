@@ -84,6 +84,9 @@ section {
   background-color: #ff6b81; /* slightly darker on hover */
   transform: translateY(-2px); /* small lift */
   box-shadow: 0 6px 8px rgba(0,0,0,0.15);
+  .cta-button {
+  font-family: inherit;
+}
 }
  .hero {
   background-image: url('../images/heroimage.png'); /* ../ goes up one folder */
@@ -100,4 +103,23 @@ section {
   margin: 0;                     /* removes extra space */
   padding: 0;                    /* removes extra space */
   border: none;                  /* removes any outline/border */
+}
+input, textarea {
+  width: 100%;
+}
+legend {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+.cta-button {       /*trying to make all button font match */
+  background-color: #ff8c94; /* soft pink */
+  color: white;
+  padding: 12px 25px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  border: none;
+}
+button, input, textarea {
+  font-family: inherit;
 }
